@@ -1,4 +1,4 @@
-title: Urbanisme Blog
+title: Urbanism Blog
 description: This is my blog about urbanism and life in the city!
 permalink: ':title/'
 baseurl: #"/flexible-jekyll" # the subpath of your site, e.g. /blog
