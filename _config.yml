@@ -1,0 +1,33 @@
+title: Urbanisme Blog
+description: This is my blog about urbanism and life in the city!
+permalink: ':title/'
+baseurl: #"/flexible-jekyll" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: Mathilde Riou # add your name
+author-img: mathilde-riou.jpg # add your photo
+about-author: I am a young urbanist, eager to learn more about what urbanism is all about, and passionated to improve the urban jungle we live in. # add description
+twitter: # add your Twitter handle
+facebook: # add your Facebook handle
+github:  # add your Github handle
+linkedin: # add your Linkedin handle
+email: urbanistmathilde@gmail.com # add your Email address
+
+# Disqus
+discus-identifier: #mr-brown # add your discus identifier
+
+# Tracker
+analytics: # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 5
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
