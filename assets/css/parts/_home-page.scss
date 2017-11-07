@@ -9,7 +9,7 @@
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: $white;
+  background-color: $background-color-sidebar;
 }
 .about {
   margin: 0 0 40px;
@@ -20,7 +20,7 @@
     margin: 0 auto 10px;
     border-radius: 100%;
     overflow: hidden;
-    background-color: $dark;
+    background-color: $color-author-image;
   }
   img {
     width: 100%;
@@ -38,7 +38,7 @@
     padding-bottom: 15px;
     font-size: 16px;
     text-transform: uppercase;
-    color: $dark;
+    color: $author-name-color;
     font-weight: 700;
     &::after {
       content: "";
@@ -50,7 +50,7 @@
       width: 7px;
       height: 7px;
       border-radius: 100%;
-      background-color: $body-color;
+      background-color: $about-dot-color;
     }
   }
   p {
@@ -71,7 +71,7 @@
 .contact {
   .contact-title {
     position: relative;
-    color: $dark;
+    color: $about-line-color;
     font-weight: 400;
     font-size: 12px;
     margin: 0 0 5px;
@@ -86,7 +86,7 @@
       position: absolute;
       top: 50%;
       left: 0;
-      background-color: $body-color;
+      background-color: $about-line-color;
     }
     &::after {
       content: "";
@@ -97,7 +97,7 @@
       position: absolute;
       top: 50%;
       right: 0;
-      background-color: $body-color;
+      background-color: $about-line-color;
     }
   }
   ul {

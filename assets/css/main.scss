@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+
+
 html {
   line-height: 1.5;
 }
@@ -30,12 +32,14 @@ img {
 }
 
 blockquote {
-  border-left: 5px solid #000;
+  border-left: 5px solid black;
   padding-left: 1.1rem;
   margin-left: 1rem;
   font-style: italic;
   color: #ada8a8;
 }
+
+
 
 pre {
   padding: 1rem 2rem;
@@ -101,6 +105,7 @@ table tfoot td {
   background-color: #fff;
 }
 
+
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
   color: $white;
@@ -131,3 +136,8 @@ table tfoot td {
 
 /* - - - - - - - - - - Media Styles - - - - - - - - - - */
 @import 'media';
+
+.img-post{
+    padding-left: 200px;
+    padding-right: 200px;
+}
